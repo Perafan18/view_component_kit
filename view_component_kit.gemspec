@@ -24,7 +24,6 @@ Gem::Specification.new do |spec|
 
   spec.add_development_dependency 'sqlite3'
 
-  spec.add_dependency 'haml-rails', '~> 2.0'
   spec.add_dependency 'rails', '~> 6.0.0', '>= 6.0.0.0'
   spec.add_dependency 'view_component', '~> 2.24'
 end
