@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.authors     = ['Pedro Perafán']
   spec.email       = ['pedro.perafan.carrasco@gmail.com']
   spec.homepage    = 'https://github.com/Perafan18/view_component_kit'
-  spec.summary     = 'TODO: Summary of ViewComponentKit.'
-  spec.description = 'TODO: Description of ViewComponentKit.'
+  spec.summary     = 'Summary of ViewComponentKit.'
+  spec.description = 'Description of ViewComponentKit.'
   spec.license     = 'MIT'
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
@@ -22,5 +22,9 @@ Gem::Specification.new do |spec|
 
   spec.files = Dir['{app,config,db,lib}/**/*', 'MIT-LICENSE', 'Rakefile', 'README.md']
 
-  spec.add_dependency 'rails', '~> 6.1.2', '>= 6.1.2.1'
+  spec.add_development_dependency 'sqlite3'
+
+  spec.add_dependency 'haml-rails', '~> 2.0'
+  spec.add_dependency 'rails', '~> 6.0.0', '>= 6.0.0.0'
+  spec.add_dependency 'view_component', '~> 2.24'
 end
